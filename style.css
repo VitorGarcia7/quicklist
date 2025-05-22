@@ -213,14 +213,14 @@ main {
         img{
             margin-bottom: 6.4rem;
         }
+    }
 
-        .add-item{
-            display: grid;
-            grid-template-columns: repeat(10, 1fr);
-            gap: 1.6rem;
-        }
+    .add-item{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        gap: 1.6rem;
 
-        .input {
+        input {
             margin-bottom: 0;
             grid-column: 1/8;
         }
