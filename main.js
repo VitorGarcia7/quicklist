@@ -20,6 +20,12 @@ function addItem(){
     showItemsList()
 }
 
+document.querySelector("#item").addEventListener("keydown", (event)=>{
+    if(event.key === "Enter"){
+        addItem()
+    }
+})
+
 function showItemsList(){
     const sectionList = document.querySelector(".list")
     sectionList.textContent = ""
