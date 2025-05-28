@@ -20,7 +20,7 @@ function addItem(){
     showItemsList()
 }
 
-document.querySelector("#item").addEventListener("keydown", (event)=>{
+document.querySelector("#item").addEventListener("keydown", (event) =>  {
     if(event.key === "Enter"){
         addItem()
     }
